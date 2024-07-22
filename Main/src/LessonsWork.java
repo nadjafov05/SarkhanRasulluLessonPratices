@@ -42,4 +42,18 @@ public class LessonsWork {
         String str = String.valueOf(reqemler);
         System.out.println(str.length());
     }
+
+    public static boolean pratices5(){
+        System.out.println("Check if the given string is equal to its reverse");
+
+        String str = "SOS";
+        for (int i=0;i<str.length();i++){
+            char sol = str.charAt(i);
+            char sag = str.charAt(str.length()-1-i);
+            if (sol != sag){
+                return false;
+            }
+        }
+        return true;
+    }
 }
