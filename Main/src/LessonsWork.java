@@ -89,10 +89,26 @@ public class LessonsWork {
             System.out.println(Math.pow(a,c));
         }
     }
-    
+
     public static String pratices9(int a){
         System.out.println("Write a method that determines whether the entered number is positive, negative, or zero.");
         String result = (a>0)? "+1":(a < 0)? "-1":"0";
         return result;
+    }
+
+    public static void pratices10(int a,int b,int c,int d){
+        System.out.println("Sure! Below is the Java method that accepts four numbers and returns true if any two of the numbers are equal:\n");
+
+        if (a == b || a == c || a == d) {
+            System.out.println(true);
+        }else if (b == a || b == c || b == d){
+            System.out.println(true);
+        }else if (c == a || c == b || c == d){
+            System.out.println(true);
+        }else if (d == a || d == b || d == c){
+            System.out.println(true);
+        }else {
+            System.out.println(false);
+        }
     }
 }
