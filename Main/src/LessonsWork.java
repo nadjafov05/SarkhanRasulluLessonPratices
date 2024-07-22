@@ -111,4 +111,20 @@ public class LessonsWork {
             System.out.println(false);
         }
     }
+
+    public static void pratices11(int a,int b,int c,int d){
+        System.out.println("Below is the Java method that accepts four numbers and returns true if any two of the numbers are equal");
+        if (a <= b && b <= c && c <= d){
+            System.out.println(true);
+        }else {
+            System.out.println(false);
+        }
+    }
+
+    public static char pratices12(String str,int charIndex){
+        System.out.println("Below is the Java method that accepts a String and an int, and returns the character at the given index of the String");
+        return str.charAt(charIndex);
+    }
+
+    
 }
