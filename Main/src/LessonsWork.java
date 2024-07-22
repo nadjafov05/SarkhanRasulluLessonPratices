@@ -70,4 +70,16 @@ public class LessonsWork {
         }
         return true;
     }
+
+    public static void pratices7(int number,char symvol,boolean booleans){
+        System.out.println("Print the character 'c' up to 'a' times. If the boolean variable is true, " +
+                "\n print it line by line, otherwise print it side by side");
+        for (int i=0;i<number;i++){
+            if (booleans == true){
+                System.out.println(symvol);
+            }else {
+                System.out.print(symvol);
+            }
+        }
+    }
 }
