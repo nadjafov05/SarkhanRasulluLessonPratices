@@ -89,4 +89,10 @@ public class LessonsWork {
             System.out.println(Math.pow(a,c));
         }
     }
+    
+    public static String pratices9(int a){
+        System.out.println("Write a method that determines whether the entered number is positive, negative, or zero.");
+        String result = (a>0)? "+1":(a < 0)? "-1":"0";
+        return result;
+    }
 }
