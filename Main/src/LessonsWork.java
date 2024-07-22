@@ -56,4 +56,18 @@ public class LessonsWork {
         }
         return true;
     }
+
+    public static boolean pratices6(){
+        System.out.println("Write a method to determine if the reverse of the entered number is the same as the origina");
+        int a = 7573;
+        String str = String.valueOf(a);
+        for (int i=0;i<str.length();i++){
+            char sol = str.charAt(i);
+            char sag = str.charAt(str.length()-1-i);
+            if (sol != sag){
+                return false;
+            }
+        }
+        return true;
+    }
 }
