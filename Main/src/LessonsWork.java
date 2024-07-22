@@ -82,4 +82,11 @@ public class LessonsWork {
             }
         }
     }
+
+    public static void pratices8(int a,int b,int c){
+        System.out.println("Raise all numbers from a to b to the power of c using Math.powclearc");
+        for (;a<=b;a++){
+            System.out.println(Math.pow(a,c));
+        }
+    }
 }
