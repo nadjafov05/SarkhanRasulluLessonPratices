@@ -1,3 +1,5 @@
+package SarkhanRasulluLessonsPratices.main;
+
 import java.util.Scanner;
 
 public class LessonsWork {
