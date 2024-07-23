@@ -7,7 +7,7 @@ public class LessonsWork {
         String str = String.valueOf(number);
 
         if(str.equals("123")){
-            System.out.println(number + " Translate the number into a string"+" : one hundred twenty-five");
+            System.out.println(str + " Translate the number into a string"+" : one hundred twenty-five");
         }
     }
 
@@ -124,6 +124,10 @@ public class LessonsWork {
     public static char pratices12(String str,int charIndex){
         System.out.println("Below is the Java method that accepts a String and an int, and returns the character at the given index of the String");
         return str.charAt(charIndex);
+    }
+
+    public static boolean pratices13(String str1,String str2){
+        return str1.equals(str2);
     }
 
     
