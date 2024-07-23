@@ -5,9 +5,13 @@ public class Main {
 
     }
 
-    public static void pratices14(String str, char chr, int count) {
-
-        //System.out.println("A method that accepts a String s, a char c, and an int count. It concatenates s with c count times and returns the result");
-
+    public static void pratices16(String a,int begin,int end) {
+        if (begin < 0 || end > a.length() || begin > end ){
+            System.out.println("eror verdi...");
+        }else {
+            for (int i= begin;i<end;i++){
+                System.out.println(a.charAt(i));
+            }
+        }
     }
 }

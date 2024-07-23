@@ -130,5 +130,31 @@ public class LessonsWork {
         return str1.equals(str2);
     }
 
-    
+    public static String pratices14(String str, char chr, int count) {
+        StringBuilder stringBuilder = new StringBuilder(str);
+        for (int i=0;i<count;i++){
+            stringBuilder.append(chr);
+        }
+        return stringBuilder.toString();
+        //System.out.println("A method that accepts a String s, a char c, and an int count. It concatenates s with c count times and returns the result");
+
+    }
+
+    public static boolean pratices15(String a,String b,String c) {
+        System.out.println("A method accepts 3 strings: String a, String b, and String c. If c is contained within both a and b, then return true; otherwise, return false.");
+        if (a.contains(c) && b.contains(c)){
+            return true;
+        }
+        return false;
+    }
+
+    public static void pratices16(String a,int begin,int end) {
+        if (begin < 0 || end > a.length() || begin > end ){
+            System.out.println("eror verdi...");
+        }else {
+            for (int i= begin;i<end;i++){
+                System.out.println(a.charAt(i));
+            }
+        }
+    }
 }
