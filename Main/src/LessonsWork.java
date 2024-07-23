@@ -157,4 +157,20 @@ public class LessonsWork {
             }
         }
     }
+
+    public static void pratices17(String str1,String str2){
+        if (str1.length() == str2.length()){
+            System.out.println("daxil edilen sozler eyni bereberdedi");
+        }else {
+            if (str1.length() > str2.length()){
+                System.out.println(str1);
+            }else if (str2.length()>str1.length()){
+                System.out.println(str2);
+            }
+        }
+    }
+
+    public static void pratices18(String str){
+        System.out.println(str.trim());
+    }
 }
